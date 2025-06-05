@@ -2,116 +2,106 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopt a Cat</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Titulo -->
+    <title>Cat Haven</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+    <!-- Header con logo imagen, nav con ids y clases -->
     <header id="header">
-        <img id="header-img" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
-            alt="freeCodeCamp logo" loading="lazy">
+        <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/616/616430.png" alt="Cat Haven Logo" />
         <nav id="nav-bar">
             <ul>
-                <li><a class="nav-link" href="#info" accesskey="i">INFO</a></li>
-                <li><a class="nav-link" href="#cats" accesskey="c">CATS</a></li>
-                <li><a class="nav-link" href="#video" accesskey="v">VIDEO</a></li>
+                <li><a class="nav-link" href="#gallery">Cats</a></li>
+                <li><a class="nav-link" href="#video-section">Why Adopt</a></li>
+                <li><a class="nav-link" href="#subscribe">Subscribe</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="info" class="text">
-            <p>
-                <strong>FreeCodeCamp</strong>, an online learning platform, provides hands-on coding education. They’ve
-                created a fictitious “Adopt a Cat” campaign where students build a cat photo app to learn HTML,
-                emphasizing the importance of pet adoption.
-            </p>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Cat Haven 🐾</h1>
+        <p>Your perfect place to find furry friends.</p>
+    </section>
 
-        <section id="cats">
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg" alt="Whiskers"
-                    loading="lazy">
-                <p class="cat-name">Whiskers</p>
-                <p class="cat-description">A playful and curious kitten always looking for new adventures.</p>
-            </div>
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg" alt="Sweetie Pie"
-                    loading="lazy">
-                <p class="cat-name">Sweetie Pie</p>
-                <p class="cat-description">Loving and gentle, she enjoys cuddles and long naps.</p>
-            </div>
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg" alt="Sparkle" loading="lazy">
-                <p class="cat-name">Sparkle</p>
-                <p class="cat-description">A free spirit with endless energy, perfect for nonstop play.</p>
-            </div>
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg" alt="Fluffy Paws"
-                    loading="lazy">
-                <p class="cat-name">Fluffy Paws</p>
-                <p class="cat-description">Soft and fluffy, he loves cozy spots and warm cuddles.</p>
-            </div>
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg" alt="Captain Cuddles"
-                    loading="lazy">
-                <p class="cat-name">Captain Cuddles</p>
-                <p class="cat-description">The king of hugs, always ready for a snuggle session.</p>
-            </div>
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg" alt="Velvet Lightning"
-                    loading="lazy">
-                <p class="cat-name">Velvet Lightning</p>
-                <p class="cat-description">Fast and agile like lightning, always on the move.</p>
-            </div>
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg" alt="Honey Angel"
-                    loading="lazy">
-                <p class="cat-name">Honey Angel</p>
-                <p class="cat-description">Sweet and calm, the perfect companion for quiet evenings.</p>
-            </div>
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg" alt="Shooting Star"
-                    loading="lazy">
-                <p class="cat-name">Shooting Star</p>
-                <p class="cat-description">Quick and adventurous, always exploring new corners.</p>
-            </div>
-            <div class="cat-card">
-                <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg" alt="Silk Warrior"
-                    loading="lazy">
-                <p class="cat-name">Silk Warrior</p>
-                <p class="cat-description">Elegant and strong, balancing tenderness with independence.</p>
-            </div>
-        </section>
+    <!-- Gallery con todos los gatos -->
+    <section class="gallery" id="gallery">
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg" alt="Whiskers" />
+            <p class="cat-name">Whiskers</p>
+            <p class="cat-description">A playful and curious kitten always looking for new adventures.</p>
+        </div>
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg" alt="Sweetie Pie" />
+            <p class="cat-name">Sweetie Pie</p>
+            <p class="cat-description">Loving and gentle, she enjoys cuddles and long naps.</p>
+        </div>
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg" alt="Sparkle" />
+            <p class="cat-name">Sparkle</p>
+            <p class="cat-description">A free spirit with endless energy, perfect for nonstop play.</p>
+        </div>
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg" alt="Fluffy Paws" />
+            <p class="cat-name">Fluffy Paws</p>
+            <p class="cat-description">Soft and fluffy, he loves cozy spots and warm cuddles.</p>
+        </div>
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg" alt="Captain Cuddles" />
+            <p class="cat-name">Captain Cuddles</p>
+            <p class="cat-description">The king of hugs, always ready for a snuggle session.</p>
+        </div>
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg" alt="Velvet Lightning" />
+            <p class="cat-name">Velvet Lightning</p>
+            <p class="cat-description">Fast and agile like lightning, always on the move.</p>
+        </div>
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg" alt="Honey Angel" />
+            <p class="cat-name">Honey Angel</p>
+            <p class="cat-description">Sweet and calm, the perfect companion for quiet evenings.</p>
+        </div>
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg" alt="Shooting Star" />
+            <p class="cat-name">Shooting Star</p>
+            <p class="cat-description">Quick and adventurous, always exploring new corners.</p>
+        </div>
+        <div class="cat-card">
+            <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg" alt="Silk Warrior" />
+            <p class="cat-name">Silk Warrior</p>
+            <p class="cat-description">Elegant and strong, balancing tenderness with independence.</p>
+        </div>
+    </section>
 
-        <section>
-            <iframe id="video" width="100%" height="315"
-                src="https://www.youtube.com/embed/vgiBuoVRt0Y?si=SMZuEd-3EYpu4pwn" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </section>
+    <!-- Video Section -->
+    <section class="video-section" id="video-section">
+        <h3>Why Adopt a Cat?</h3>
+        <div class="video-wrapper">
+            <iframe id="video" src="https://www.youtube.com/embed/XTkM7Xpfrn4?si=jBelGow0gs-NPCFy&amp;start=1"
+                title="Adoption Video" allowfullscreen></iframe>
+        </div>
+    </section>
 
-        <section id="hero">
-            <h2>FreeCodeCamp Cat Adoption</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input name="email" id="email" type="email" placeholder="Enter your email address" required>
-                <input id="submit" type="submit" value="Get Started" class="btn">
-            </form>
-        </section>
-    </main>
+    <!-- Subscribe Section -->
+    <section class="subscribe" id="subscribe">
+        <h3>Subscribe to Our Newsletter</h3>
+        <p>Stay updated with the latest cats available for adoption!</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input id="email" type="email" name="email" placeholder="Your email address" required />
+            <button id="submit" type="submit">Subscribe</button>
+        </form>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <address>
-            <a href="https://freecodecamp.org" target="_blank" rel="noopener noreferrer">freeCodeCamp</a><br>
-            San Francisco<br>
-            California<br>
-            USA
-        </address>
+        <p>© 2025 Cat Haven. All rights reserved.</p>
     </footer>
-
 </body>
 
 </html>
