@@ -45,6 +45,11 @@ h3 {
     margin-bottom: 1rem;
 }
 
+/* --- Layout Corrections --- */
+section[id] {
+    scroll-margin-top: 72px;
+}
+
 /* --- Header --- */
 header#header {
     background-color: var(--primary);
